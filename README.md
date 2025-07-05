@@ -79,11 +79,11 @@ Before you begin, ensure you have the following installed on your system:
 ```bash
 # Clone the main repository
 git clone https://github.com/mradz65italy/AI_Powered_Project_Management.git
-cd ai-projecthub
+cd AI_Powered_Project_Management
 
 # Or clone your fork
 git clone https://github.com/mradz65italy/AI_Powered_Project_Management.git
-cd ai-projecthub
+cd AI_Powered_Project_Management
 ```
 
 ### 2. Install Dependencies
@@ -150,7 +150,7 @@ AWS_S3_BUCKET=your_bucket_name
 
 ```bash
 # Create PostgreSQL database
-createdb ai_projecthub
+createdb AI_Powered_Project_Management
 
 # Run database migrations
 npm run db:migrate
@@ -182,7 +182,7 @@ The application will be available at:
 ```bash
 # Clone repository
 git clone https://github.com/mradz65italy/AI_Powered_Project_Management.git
-cd ai-projecthub
+cd AI_Powered_Project_Management
 
 # Copy and configure environment
 cp docker-compose.env.example docker-compose.env
@@ -199,12 +199,12 @@ docker-compose logs -f
 
 ```bash
 # Build the application image
-docker build -t ai-projecthub .
+docker build -t AI_Powered_Project_Management.
 
 # Run PostgreSQL
 docker run -d \
-  --name ai-projecthub-db \
-  -e POSTGRES_DB=ai_projecthub \
+  --name AI_Powered_Project_Management-db \
+  -e POSTGRES_DB=AI_Powered_Project_Management \
   -e POSTGRES_USER=projecthub \
   -e POSTGRES_PASSWORD=your_password \
   -p 5432:5432 \
@@ -225,7 +225,7 @@ docker run -d \
   -e DATABASE_URL=postgresql://projecthub:your_password@db:5432/ai_projecthub \
   -e REDIS_URL=redis://redis:6379 \
   -e ANTHROPIC_API_KEY=your_claude_api_key \
-  ai-projecthub
+  AI_Powered_Project_Management
 ```
 
 ## ☸️ Kubernetes Deployment
@@ -240,29 +240,29 @@ docker run -d \
 ```bash
 # Clone repository
 git clone https://github.com/mradz65italy/AI_Powered_Project_Management.git
-cd ai-projecthub
+cd AI_Powered_Project_Management
 
 # Create namespace
-kubectl create namespace ai-projecthub
+kubectl create namespace AI_Powered_Project_Management
 
 # Create secrets
-kubectl create secret generic ai-projecthub-secrets \
+kubectl create secret generic AI_Powered_Project_Management-secrets \
   --from-literal=database-url="postgresql://user:pass@postgres:5432/ai_projecthub" \
   --from-literal=anthropic-api-key="your_claude_api_key" \
   --from-literal=jwt-secret="your_jwt_secret" \
   -n ai-projecthub
 
 # Deploy PostgreSQL
-kubectl apply -f k8s/postgres.yaml -n ai-projecthub
+kubectl apply -f k8s/postgres.yaml -n AI_Powered_Project_Management
 
 # Deploy Redis
-kubectl apply -f k8s/redis.yaml -n ai-projecthub
+kubectl apply -f k8s/redis.yaml -n AI_Powered_Project_Management
 
 # Deploy application
-kubectl apply -f k8s/app.yaml -n ai-projecthub
+kubectl apply -f k8s/app.yaml -n AI_Powered_Project_Management
 
 # Expose service
-kubectl apply -f k8s/service.yaml -n ai-projecthub
+kubectl apply -f k8s/service.yaml -n AI_Powered_Project_Management
 ```
 
 ### Helm Deployment
@@ -273,7 +273,7 @@ helm repo add ai-projecthub https://charts.aiprojecthub.org
 helm repo update
 
 # Install with custom values
-helm install ai-projecthub ai-projecthub/ai-projecthub \
+helm install AI_Powered_Project_Management AI_Powered_Project_Management/AI_Powered_Project_Management\
   --set postgresql.enabled=true \
   --set redis.enabled=true \
   --set anthropic.apiKey="your_claude_api_key" \
@@ -397,8 +397,8 @@ npm install --save-dev jest supertest @testing-library/react
 
 ```bash
 # Create development and test databases
-createdb ai_projecthub_development
-createdb ai_projecthub_test
+createdb AI_Powered_Project_Management
+createdb AI_Powered_Project_Management_test
 
 # Run migrations for all environments
 npm run db:migrate:dev
