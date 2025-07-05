@@ -17,7 +17,7 @@ Open-source AI-enhanced project management platform with PMP compliance for SMBs
 </div>
 
 # 🚀 What is an AI Powered Project Manager?
-AI ProjectHub is a revolutionary open-source project management platform that combines artificial intelligence with professional PMI methodologies to deliver enterprise-grade project management capabilities to small and medium businesses. Built from the ground up with AI at its core, it provides intelligent insights, predictive analytics, and automated project optimization that traditionally required expensive proprietary solutions or dedicated project management offices.
+AI Powered Project Manager is a revolutionary open-source project management platform that combines artificial intelligence with professional PMI methodologies to deliver enterprise-grade project management capabilities to small and medium businesses. Built from the ground up with AI at its core, it provides intelligent insights, predictive analytics, and automated project optimization that traditionally required expensive proprietary solutions or dedicated project management offices.
 
 Unlike legacy project management tools that bolt on AI features as an afterthought, this AI powered Project Management program allows - automatic task breakdown and timeline prediction to risk assessment and resource optimization. The platform follows Project Management Professional (PMP) best practices and includes comprehensive templates and processes that ensure your projects meet industry standards while utilizing AI to prevent problems before they occur.
 
