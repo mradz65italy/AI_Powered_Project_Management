@@ -78,7 +78,7 @@ Before you begin, ensure you have the following installed on your system:
 
 ```bash
 # Clone the main repository
-git clone https://github.com/aiprojecthub/ai-projecthub.git
+git clone https://github.com/mradz65italy/AI_Powered_Project_Management.git
 cd ai-projecthub
 
 # Or clone your fork
