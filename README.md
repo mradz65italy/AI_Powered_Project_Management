@@ -82,7 +82,7 @@ git clone https://github.com/aiprojecthub/ai-projecthub.git
 cd ai-projecthub
 
 # Or clone your fork
-git clone https://github.com/YOUR_USERNAME/ai-projecthub.git
+git clone https://github.com/mradz65italy/AI_Powered_Project_Management.git
 cd ai-projecthub
 ```
 
@@ -111,7 +111,7 @@ nano .env
 **Required Environment Variables:**
 ```bash
 # Database Configuration
-DATABASE_URL=postgresql://username:password@localhost:5432/ai_projecthub
+DATABASE_URL=postgresql://username:password@localhost:5432/ai_powered_project_management
 DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=ai_projecthub
@@ -181,7 +181,7 @@ The application will be available at:
 
 ```bash
 # Clone repository
-git clone https://github.com/aiprojecthub/ai-projecthub.git
+git clone https://github.com/mradz65italy/AI_Powered_Project_Management.git
 cd ai-projecthub
 
 # Copy and configure environment
@@ -239,7 +239,7 @@ docker run -d \
 
 ```bash
 # Clone repository
-git clone https://github.com/aiprojecthub/ai-projecthub.git
+git clone https://github.com/mradz65italy/AI_Powered_Project_Management.git
 cd ai-projecthub
 
 # Create namespace
