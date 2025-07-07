@@ -556,6 +556,6 @@ After successful installation:
 2. **Invite team members** and set up user roles
 3. **Configure integrations** with your existing tools
 4. **Explore AI features** like predictive analytics and smart task breakdown
-5. **📊 Set up dashboards** for project monitoring and reporting
+5. **Set up dashboards** for project monitoring and reporting
 
 
